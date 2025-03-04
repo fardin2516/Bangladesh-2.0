@@ -1,0 +1,17 @@
+
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bannar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  color: white;
+  background-color: #006A50;
+}
