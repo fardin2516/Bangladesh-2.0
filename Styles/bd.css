@@ -5,13 +5,45 @@
   font-weight: 700;
   font-style: normal;
 }
-
+/* Bannar section start */
 .bannar{
   display: flex;
   justify-content: space-between;
+  margin: 160px;
+  background-color: #C6E4D6;
+  /* padding: 60px; */
+  width: 1280px;
+  height: 560px;
+  border-radius: 24px;
 }
-
+.banner-head{
+  margin: auto;
+  margin-left: 60px;
+}
+h4{
+  color: #0E0E0E;
+  opacity: 50%;
+  font-size: 24px;
+}
+.bannar-headline{
+  font-weight: bold;
+  /* font-size: 53.80px; */
+  font-size: 56px;
+  width: 622px;
+  height: 201px;
+  color: #0E0E0E;
+}
 .btn{
-  color: white;
+  color: #FFFFFF;
   background-color: #006A50;
+  width: 270px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.bannar-image{
+  width: 474.03px;
+  height: 400px;
+  margin: auto;
 }
