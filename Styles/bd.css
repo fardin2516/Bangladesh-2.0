@@ -82,7 +82,7 @@
   color: #0E0E0E;
 }
 
-.pillar-description {
+.card-description {
   font-size: 16px;
   font-weight: 400;
   opacity: 70%;
@@ -105,6 +105,7 @@
 .vision-container{
   display: flex;
   gap: 24px;
+  margin-bottom: 16px;
 }
 .vision-cards-1{
   background-color: #c8d9f5;
@@ -164,3 +165,52 @@
   font-size: 16px;
   font-family: "Fira Sans", sans-serif;
 }
+/* Quote Section start */
+.Quote-Section{
+  margin: 160px;
+  margin-top: 16px;
+  padding: 24px;
+  /* padding-top: 48px; */
+  padding-bottom: 48px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+}
+.quote{
+  background-image: url(/images/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 11px;
+}
+ /* News section start */
+ .news-section{
+  margin: 160px;
+  margin-top: 16px;
+  padding: 24px;
+  padding-bottom: 48px;
+  
+ }
+ .news-cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  padding: 48px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+ }
+ 
+ .btn-news{
+  color: #FFFFFF;
+  background-color: #006A50;
+  width: 139px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Fira Sans", sans-serif;
+ }
+ img{
+  border-radius: 24px;
+ }
