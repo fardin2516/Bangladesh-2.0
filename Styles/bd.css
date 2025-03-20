@@ -98,16 +98,19 @@
   border-radius: 16px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.pillars-of-bd{
+
+.pillars-of-bd {
   margin-bottom: 80px;
 }
+
 /* vision section start */
-.vision-container{
+.vision-container {
   display: flex;
   gap: 24px;
   margin-bottom: 16px;
 }
-.vision-cards-1{
+
+.vision-cards-1 {
   background-color: #c8d9f5;
   border: #0E0E0E;
   border-color: #0E0E0E;
@@ -115,7 +118,8 @@
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 24px;
 }
-.vision-cards-2{
+
+.vision-cards-2 {
   background-color: #C6E4D6;
   border: #0E0E0E;
   border-color: #0E0E0E;
@@ -123,7 +127,8 @@
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 24px;
 }
-.vision-cards-3{
+
+.vision-cards-3 {
   background-color: #f7e7c1;
   border: #0E0E0E;
   border-color: #0E0E0E;
@@ -131,7 +136,8 @@
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 24px;
 }
-.btn-2{
+
+.btn-2 {
   color: #FFFFFF;
   background-color: #5490F5;
   width: 122px;
@@ -143,7 +149,7 @@
   font-family: "Fira Sans", sans-serif;
 }
 
-.btn-3{
+.btn-3 {
   color: #FFFFFF;
   background-color: #09A15C;
   width: 122px;
@@ -154,7 +160,8 @@
   font-size: 16px;
   font-family: "Fira Sans", sans-serif;
 }
-.btn-4{
+
+.btn-4 {
   color: #FFFFFF;
   background-color: #FFC239;
   width: 122px;
@@ -165,8 +172,9 @@
   font-size: 16px;
   font-family: "Fira Sans", sans-serif;
 }
+
 /* Quote Section start */
-.Quote-Section{
+.Quote-Section {
   margin: 160px;
   margin-top: 16px;
   padding: 24px;
@@ -175,32 +183,34 @@
   background-color: #FFFFFF;
   border-radius: 16px;
 }
-.quote{
+
+.quote {
   background-image: url(/images/quote-bg.png);
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 11px;
 }
- /* News section start */
- .news-section{
+
+/* News section start */
+.news-section {
   margin: 160px;
   margin-top: 16px;
   padding: 24px;
-  padding-bottom: 48px;
-  
- }
- .news-cards{
+
+
+}
+
+.news-cards {
   display: flex;
   justify-content: space-between;
   gap: 32px;
   margin-top: 32px;
-  margin-bottom: 24px;
   padding: 48px;
   background-color: #FFFFFF;
   border-radius: 16px;
- }
- 
- .btn-news{
+}
+
+.btn-news {
   color: #FFFFFF;
   background-color: #006A50;
   width: 139px;
@@ -210,7 +220,74 @@
   font-weight: 600;
   font-size: 18px;
   font-family: "Fira Sans", sans-serif;
- }
- img{
+}
+
+img {
   border-radius: 24px;
- }
+}
+
+.news-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+  opacity: 80%;
+}
+
+/* Taka section start */
+
+.donate {
+  text-align: center;
+  gap: auto;
+}
+
+.donate-description {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 70%;
+  margin-inline: 160px;
+  padding-inline: 60px;
+}
+
+.taka-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 32px;
+  /* padding: 40px; */
+  justify-content: center;
+}
+
+.Taka {
+  padding: 40px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 80%;
+}
+
+.Taka-200 {
+  padding: 40px;
+  background-color: #C6E4D6;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 80%;
+
+}
+
+.form {
+  height: 64px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 1032px;
+  padding: 10px 20px;
+  margin: 124px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  border: #0E0E0E;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+
+}
